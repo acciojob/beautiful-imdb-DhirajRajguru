@@ -1,2 +1,35 @@
 
 /* Your CSS Code here. */
+.moviePic{
+	height:200px;
+	width:300px;
+	opacity:0.8;
+}
+.moviePic:hover{
+	animation:batman 3s ease-in infinite;
+}
+
+@keyframe batman{
+	0%{
+	transform:scale(1);
+	}
+	50%{
+		transform:scale(1.5);
+	}
+	100%{
+	 transform:scale(1);
+	}
+}
+.movieDetail{
+	position:relative;
+	top:10px;
+	width:200px;
+	text-align:center;
+	font-size:15px;
+	
+}
+
+
+
+
+
